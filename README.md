@@ -1,5 +1,10 @@
 # Kinematics Calculator (Calculadora de Cinemática)
 
+## Pictures
+![Picture 1](./imgs/imp1.png)
+![Picture 2](./imgs/imp2.png)
+![Picture 3](./imgs/imp3.png)
+
 ## Code
 ```rust
 use std::io;
