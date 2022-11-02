@@ -12,7 +12,7 @@ fn show_options() {
     let option: u8 = read_option();
     match option {
         1 => velocity(),
-        2 => aceleration(),
+        2 => acceleration(),
         3 => println!("MU"),
         4 => println!("MUV"),
         5 => kmh_to_ms(),
@@ -39,7 +39,7 @@ fn read_number() -> f64 {
     number
 }
 
-fn aceleration() {
+fn acceleration() {
     println!("Qual a velocidade INICIAL em m/s?");
     let v_0: f64 = read_number();
     println!("Qual a velocidade FINAL em m/s?");
